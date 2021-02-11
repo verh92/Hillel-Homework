@@ -36,7 +36,7 @@ alert(`You choose ${operation} has a result ${res}`);
 function reqOperation() {
     let operation;
     while(!operation) {
-        let sym = prompt('Choose the math operation: + , - , * , / ');
+        let sym = prompt('Choose the math operation: + , - , * , / , sin ');
         switch(sym) {
             case '+':
             case '-':
